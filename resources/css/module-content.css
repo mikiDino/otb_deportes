@@ -1,0 +1,6 @@
+.container-fluid{
+    background: linear-gradient(rgba(32, 32, 93, 0.78) 50% , rgba(29, 24, 63, 0.543) 100%), url('/public/img/fondo.avif');
+}
+.agregar{
+    margin-bottom: 30px;
+}

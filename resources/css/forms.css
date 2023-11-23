@@ -1,0 +1,17 @@
+/* jugadores */
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-remove {
+    cursor: pointer;
+}
+.scroll-container {
+    max-height: 60vh; /* Establece la altura máxima que desees */
+    overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido excede la altura máxima */
+}
+a{
+    color: #fff;
+}

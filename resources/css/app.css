@@ -1,0 +1,10 @@
+@import url(dashboard.css);
+@import url(tablaPosiciones.css);
+@import url(forms.css);
+@import url(login.css);
+@import url(ficture.css);
+@import url(module-content.css);
+@import url(logos.css);
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;

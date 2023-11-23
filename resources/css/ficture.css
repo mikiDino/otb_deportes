@@ -1,0 +1,57 @@
+/* Estilos CSS */
+
+/* Estilos base */
+.tournament {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.fixtur {
+    width: 100%;
+    max-width: 400px; /* Ajusta el ancho máximo para cada fixture */
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.round {
+    display: grid; /* Utilizar CSS Grid */
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas en cada ronda */
+    gap: 10px; /* Espacio entre columnas */
+    margin-bottom: 20px;
+}
+
+.match {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.result {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.round .match:nth-child(odd) {
+    background-color: #ffd700; /* Cambia el color de fondo para las rondas impares */
+}
+
+/* Media queries para dispositivos más pequeños */
+@media (max-width: 768px) {
+    .fixtur {
+        max-width: 100%; /* Para ocupar el ancho completo en dispositivos pequeños */
+    }
+
+    .round {
+        grid-template-columns: 1fr; /* Una columna en dispositivos pequeños */
+    }
+}
+.title{
+    color: #fff;
+}

@@ -1,0 +1,26 @@
+/* Estilos para enlaces activos */
+.nav-link.active {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px;
+    transition: font-weight 0.3s;
+}
+
+/* Estilos de hover/focus */
+.nav-link:hover, .nav-link:focus {
+    font-weight: 800;
+    transition: font-weight 0.3s; /* Transiciones suaves */
+}
+.sidebar{
+    background: rgba(30, 18, 61, 0.585);
+}
+.bg-white {
+    /* ... otros estilos ... */
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Clase para mostrar el menú */
+.show-menu {
+    opacity: 1;
+}

@@ -1,0 +1,26 @@
+.container {
+    perspective: 1000px; /* Profundidad de la perspectiva */
+}
+
+.image {
+    width: 200px; /* Ancho de la imagen */
+    height: 200px; /* Alto de la imagen */
+    margin: 240px auto; /* Margen para centrarla */
+    transform-style: preserve-3d;
+    animation: spin 5s infinite linear; /* Animación de rotación */
+
+    /* Grosor con borde */
+    border: 10px solid #fff; /* Borde grueso blanco */
+    /* O grosor con sombra */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotateY(0); /* Rotación inicial */
+    }
+    to {
+        transform: rotateY(360deg); /* Rotación completa */
+    }
+}
